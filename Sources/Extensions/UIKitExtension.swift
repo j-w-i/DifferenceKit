@@ -124,6 +124,7 @@ public extension UITableView {
     }
 }
 
+@available(iOS, introduced: 6.0)
 public extension UICollectionView {
     /// Applies multiple animated updates in stages using `StagedChangeset`.
     ///
